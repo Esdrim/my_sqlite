@@ -1,5 +1,7 @@
 # 基于Python3 版本的简单sqlite3数据库调用
 
+论如何优雅的使用sqlite3数据库
+
 ---
 
 ## 需要依赖:
@@ -47,7 +49,6 @@ db.connect()
 db.conn	= sqlite3.connect(self.path)
 db.cur 	= self.conn.cursor()
 ```
-
 
 #### 发送带返回值的命令
 
